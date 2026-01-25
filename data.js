@@ -1,6 +1,6 @@
 
 async function tmp(){
-    let data =await fetch('./question2.txt');
+    let data =await fetch('./question1.txt');
     data=await data.text();
     return data
 }
@@ -138,6 +138,7 @@ for (var j = 0; j < res.length; j++) {
     
 }
 export  {image_question,result};
+
 
 
 
